@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+
+.hr{
+    height: 1px; 
+    background-color: rgb(90, 16, 141);
+}
+
+/*NAVBAR - START*/
+.navbar-cont{
+    display: flex;
+    position: sticky;
+    height: 2vw;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    background-color: white;
+    color: rgb(213,202,170);
+    font-family: 'Inika', sans-serif;
+}
+
+.navbar-left-cont{
+    display: flex;
+    width: 33.3%;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-center-cont{
+    display: flex;
+    width: 33.3%;
+}
+
+.navbar-center-logo{
+    margin: auto;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar-right-cont{
+    display: flex;
+    width: 33.3%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-links{
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.navbar-icon{
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/*NAVBAR - END*/
+
+/*HERO SECTION - START*/
+.hero-section-cont{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    font-family: 'Inika', sans-serif;
+    color: rgb(213,202,170);
+}
+
+.wrap { 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }  
+
+.hero-section-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hero-section-down{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.hero-section-1{
+    display: flex;
+    width: 25%;
+}
+
+.hero-section-label{
+    display: flex;
+    font-weight: bold;
+    font-family: 'Inika', sans-serif;
+    width: auto;
+    font-size: 4rem;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-section-label{
+      font-size: 2rem;
+    }
+  }
+
+.hero-section-1 img{
+    display: flex;
+    height: auto;
+    max-height: 800px;
+    width: 100%;
+    min-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.hero-section-2{
+    display: flex;
+    width: 25%;
+}
+
+
+.hero-section-2 img{
+    display: flex;
+    height: auto;
+    max-height: 800px;
+    width: 100%;
+    min-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.hero-section-3{
+    display: flex;
+    width: 25%;
+}
+
+
+.hero-section-3 img{
+    display: flex;
+    height: auto;
+    max-height: 800px;
+    width: 100%;
+    min-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.hero-section-4{
+    display: flex;
+    width: 25%;
+}
+
+.hero-section-4 img{
+    display: flex;
+    height: auto;
+    max-height: 800px;
+    width: 100%;
+    min-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+/*HERO SECTION - END*/
+
+/*CARDS SECTION - START*/
+
+.content-label{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 99%;
+    height: 150px;
+    align-items: center;
+}
+
+.content-label p{
+    font-size: 3rem;
+    color: rgb(213,202,170);
+    font-family: 'Inika', sans-serif;
+}
+
+.content-cont{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.card-outside-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.card-cont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+    min-width: 26%;
+    margin: 1%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(90, 16, 141);
+    transition: all 0.5s ease;
+}
+
+.card-cont img{
+    display: flex;
+    height: auto;
+    max-height: 480px;
+    width: 100%;
+    min-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.card-title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Inika', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: rgb(213,202,170);
+}
+
+.card-price{
+    display: flex;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: rgb(90, 16, 141);
+}
+
+.card-buy{
+    display: flex;
+    width: 100%;
+    font-size: 1.5rem;
+    justify-content: center;
+    font-family: 'Inika', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(213,202,170);
+    border-radius: 10px;
+    padding: 1%;
+    cursor: pointer;
+}
+
+
+/*CARDS SECTION - END*/
+
